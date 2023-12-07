@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_mobx: ^2.2.0+1
+  get_it: ^7.6.4
   mobx: ^2.2.3
   path: ^1.8.3
   sqflite: ^2.3.0
