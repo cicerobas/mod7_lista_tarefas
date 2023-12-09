@@ -1,8 +1,9 @@
+import 'package:mod7_lista_tarefas/utils/constants.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart' as path;
 
 const String createTable = '''
-  CREATE TABLE IF NOT EXISTS todos(
+  CREATE TABLE IF NOT EXISTS ${Constants.dbTableName}(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     description TEXT,
     status INTEGER
